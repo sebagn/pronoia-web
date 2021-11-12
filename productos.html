@@ -51,11 +51,26 @@
 
     <main class="prod__main">
         <div class="prod__title">
-            <h1>Nuestro productos</h1>
+            <h1>Nuestros productos</h1>
             <h2>Alguna frase corta (opcional)</h2>
         </div>
         <aside class="prod__categorias">
             <h2>Categorias</h2>
+            <ul class="list">
+                <li><button class="cat__button" data-bs-toggle="collapse" data-bs-target="#categoria1"
+                        aria-expanded="false" aria-controls="categoria1">Categoria 1</button></li>
+                <li><button class="cat__button" data-bs-toggle="collapse" data-bs-target="#categoria2"
+                        aria-expanded="false" aria-controls="categoria2">Categoria 2</button></li>
+            </ul>
+            <div class="row">
+                <div class="col">
+
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+            <!-- <h2>Categorias</h2>
             <ul class="list">
                 <li>Tapices</li>
                 <li>Alfombras</li>
@@ -67,105 +82,137 @@
                 <li>SujetaChupetes</li>
                 <li>..etc</li>
                 <li>..etc</li>
-            </ul>
+            </ul> -->
         </aside>
+
+        <!-- Seccion de la galeria -->
         <section class="prod__galeria">
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- Primera categoria expandible -->
+            <div class="collapse multi-collapse gal__cat" id="categoria1">
+                <div class="gal__title">
+                    <h3>Categoria 1</h3>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Cards de los productos -->
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
+
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <!-- Segunda categoria expandible -->
+            <div class="collapse multi-collapse gal__cat" id="categoria2">
+                <div class="gal__title">
+                    <h3>Categoria 2</h3>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Cards de los productos -->
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src=" https://place-puppy.com/300x300" class="card-img-top" alt=" https://place-puppy.com/300x300">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src=" https://place-puppy.com/300x300" class="card-img-top"
+                        alt=" https://place-puppy.com/300x300">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
             </div>
+
         </section>
 
     </main>
