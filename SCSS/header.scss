@@ -22,9 +22,15 @@
 .navbar-light .navbar-nav .nav-link{
     color: $color-pri;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link.active{
     color: $color-focus;
 }
-
+.navbar-light .navbar-toggler{
+    background-color: $color-pri;
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: $color-pri;
+}
 
