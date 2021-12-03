@@ -47,7 +47,7 @@ body{
 	margin: 1em 0;
 	color: $color-sec;
 }
-@media (max-width: 770px) {
+@media (max-width: 768px) {
     .prod__categorias{
         display: none;
     }
@@ -62,7 +62,7 @@ body{
 			justify-content: space-around;
 			.card {
                 margin: 0;
-				width: 200px;
+				width: 220px;
 			}
 		}
 	}

@@ -11,6 +11,10 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/main.css" />
+		<script
+			src="https://kit.fontawesome.com/4dcf309fc0.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Pronoia - productos</title>
 	</head>
 
@@ -19,66 +23,123 @@
 			<div class="span-top">
 				Todas las tarjetas - Transferencia bancaria - Efectivo
 			</div>
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container-fluid">
+			<navbar class="navbar">
+				<nav class="nav-bars">
+					<!-- Boton offcanvas menu -->
+					<a
+						class=""
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvas-nav"
+						aria-controls="offcanvas-nav"
+					>
+						<i class="fas fa-bars fa-3x"></i>
+					</a>
+
+					<!-- Cuerpo offcanvas menu -->
+					<div
+						class="offcanvas offcanvas-start"
+						data-bs-scroll="true"
+						tabindex="-1"
+						id="offcanvas-nav"
+						aria-labelledby="offcanvas-nav"
+					>
+						<div class="offcanvas-header">
+							<a
+								class="offcanvas-title navbar-brand"
+								id="offcanvas-nav"
+								href="#"
+							>
+								<img
+									class="logo"
+									src="assets/logo.jpeg"
+									alt="logo de pronoia"
+								/>
+							</a>
+							<button
+								type="button"
+								class="btn-close canvas__close text-reset"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="offcanvas-body">
+							<div class="navbar__cat">
+								<h3>Inicio</h3>
+							</div>
+							<div class="navbar__cat">
+								<a
+									class="navbar__cat"
+									data-bs-toggle="collapse"
+									href="#collapseExample"
+									role="button"
+									aria-expanded="false"
+									aria-controls="collapseExample"
+								>
+									<h3>Productos</h3>
+								</a>
+								<div class="collapse" id="collapseExample">
+									<ul>
+										<li><a href="">categoria x</a></li>
+										<li><a href="">categoria x</a></li>
+										<li><a href="">categoria x</a></li>
+										<li><a href="">categoria x</a></li>
+										<li><a href="">categoria x</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="navbar__cat">
+								<h3>Contacto</h3>
+							</div>
+						</div>
+						<!-- cierra offcanvas menu -->
+					</div>
+				</nav>
+
+				<div class="logo">
 					<a class="navbar-brand" href="#"
 						><img
 							class="logo"
 							src="assets/logo.jpeg"
 							alt="logo de pronoia"
 					/></a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarTogglerDemo02"
-						aria-controls="navbarTogglerDemo02"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div
-						class="collapse navbar-collapse"
-						id="navbarTogglerDemo02"
-					>
-						<ul class="navbar-nav me-auto col-11 mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a class="nav-link" href="index.html">Inicio</a>
-							</li>
-							<li class="nav-item">
-								<a
-									class="nav-link active"
-									aria-current="page"
-									href="productos.html"
-									>Productos</a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contacto.html"
-									>Contacto</a
-								>
-							</li>
-						</ul>
-						<ul class="navbar-nav me-auto col-1 mb-2 mb-lg-0 redes">
-							<li class="nav-item">
-								<a class="nav-link" href="#"
-									><img
-										src="./assets/facebook.png"
-										alt="link a facebook"
-								/></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#"
-									><img
-										src="./assets/instagram.png"
-										alt="link a instagram"
-								/></a>
-							</li>
-						</ul>
-					</div>
 				</div>
-			</nav>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link active"
+							aria-current="page"
+							href="productos.html"
+							>Productos</a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="contacto.html"
+							>Contacto</a
+						>
+					</li>
+				</ul>
+				<ul class="navbar__redes">
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<i class="fab fa-facebook-square fa-lg"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<i class="fab fa-instagram fa-lg"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<i class="fab fa-whatsapp fa-lg"></i>
+						</a>
+					</li>
+				</ul>
+			</navbar>
 		</header>
 
 		<main class="prod__main row">

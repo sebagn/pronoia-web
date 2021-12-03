@@ -1,6 +1,12 @@
 a {
   text-decoration: none; }
 
+ul {
+  list-style: none; }
+
+.fab, .fas {
+  color: #885B3E; }
+
 .span-top {
   text-align: center;
   background-color: #885B3E;
@@ -8,29 +14,61 @@ a {
   width: 100vw;
   padding: 0.5rem 0; }
 
-.navbar .container-fluid {
-  align-items: flex-end; }
-
 .logo {
   height: 7rem; }
 
-.navbar-nav {
+.navbar {
   display: flex;
-  justify-content: center; }
+  justify-content: space-around; }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-brand {
+  margin: 0; }
+
+.navbar__cat {
   color: #885B3E;
-  font-weight: bold;
-  text-transform: uppercase; }
+  border-top: #885B3E solid 1px;
+  border-bottom: #885B3E solid 1px;
+  padding: 1em 0; }
+  .navbar__cat:focus {
+    color: #885B3E; }
+  .navbar__cat ul a {
+    color: #2E8654;
+    text-decoration: none; }
 
-.navbar-light .navbar-nav .nav-link.active {
-  color: #E1B37D; }
+.navbar__redes {
+  padding: 0; }
 
-.navbar-light .navbar-toggler {
-  background-color: #885B3E; }
+.nav-item {
+  display: block;
+  float: left; }
+  .nav-item a {
+    padding: 0.3em; }
 
-.navbar-light .navbar-toggler-icon {
-  background-color: #885B3E; }
+.offcanvas {
+  width: 70vw; }
+  .offcanvas .offcanvas-title {
+    width: 50%;
+    margin: 0 25%; }
+  .offcanvas .canvas__close {
+    align-self: flex-start; }
+
+.nav-menu {
+  display: none; }
+
+@media (min-width: 769px) {
+  .nav-bars {
+    display: none; }
+  .nav-menu {
+    align-self: flex-end;
+    display: inline; }
+    .nav-menu .nav-link {
+      color: #885B3E;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .nav-menu .active {
+      color: #E1B37D; }
+  .navbar__redes {
+    align-self: flex-end; } }
 
 .carousel {
   height: 900px; }
@@ -120,6 +158,12 @@ a {
 a {
   text-decoration: none; }
 
+ul {
+  list-style: none; }
+
+.fab, .fas {
+  color: #885B3E; }
+
 body {
   overflow: hidden; }
 
@@ -160,7 +204,7 @@ body {
   margin: 1em 0;
   color: #2E8654; }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   .prod__categorias {
     display: none; }
   .prod__main {
@@ -172,13 +216,25 @@ body {
     justify-content: space-around; }
     .prod__galeria .gal__cat .card {
       margin: 0;
-      width: 200px; } }
+      width: 220px; } }
 
 a {
   text-decoration: none; }
 
+ul {
+  list-style: none; }
+
+.fab, .fas {
+  color: #885B3E; }
+
 a {
   text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.fab, .fas {
+  color: #885B3E; }
 
 .contacto .form-control {
   background-color: burlywood;
