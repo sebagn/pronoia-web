@@ -1,6 +1,6 @@
 @import "./variables.scss";
-body{
-    overflow: hidden;
+body {
+	overflow: hidden;
 }
 .prod__categorias {
 	text-align: center;
@@ -10,11 +10,14 @@ body{
 	.list {
 		list-style-type: none;
 		padding: 0;
-        .active{
-            font-weight: bold;
-        }
+		.active {
+			font-weight: bold;
+		}
 		.cat__button {
 			text-transform: uppercase;
+			a {
+				color: $color-sec;
+			}
 		}
 	}
 }
@@ -42,26 +45,28 @@ body{
 			}
 		}
 	}
-    .gal__title {
-        display: none;
-        width: 100%;
-        text-align: center;
-        margin: 1em 0;
-        color: $color-sec;
-    }
+	.gal__title {
+		display: none;
+		width: 100%;
+		text-align: center;
+		margin: 1em 0;
+		color: $color-sec;
+	}
 }
+
+// MEDIA QUERY MOBILE
 @media (max-width: 768px) {
-    .prod__categorias{
-        display: none;
-    }
+	.prod__categorias {
+		display: none;
+	}
 	.prod__main {
 		flex-direction: column;
 		justify-content: space-around;
 	}
 	.prod__galeria {
-        .gal__title {
-            display: block;
-        }
+		.gal__title {
+			display: block;
+		}
 		.gal__cat {
 			display: flex;
 			flex-flow: row wrap;

@@ -20,7 +20,7 @@
 .navbar__cat {
     color: $color-pri;
 		padding: 1em 0;
-		&:focus {
+		&:focus, &:hover {
 			color: $color-pri;
 		}
 	.nav-link {
@@ -29,9 +29,10 @@
 		border-bottom: $color-pri solid 1px;
 	}
 	ul {
-		a {
+		.navcat {
 			color: $color-sec;
 			text-decoration: none;
+			text-transform: uppercase;
 		}
 	}
 }

@@ -4,8 +4,13 @@ a {
 ul {
   list-style: none; }
 
-.fab, .fas {
+.fab, .fa-bars {
   color: #885B3E; }
+
+.fa-li {
+  color: #E1B37D; }
+  .fa-li .fab {
+    color: #E1B37D; }
 
 .span-top {
   text-align: center;
@@ -27,14 +32,15 @@ ul {
 .navbar__cat, .navbar__cat .nav-link {
   color: #885B3E;
   padding: 1em 0; }
-  .navbar__cat:focus, .navbar__cat .nav-link:focus {
+  .navbar__cat:focus, .navbar__cat .nav-link:focus, .navbar__cat:hover, .navbar__cat .nav-link:hover {
     color: #885B3E; }
   .navbar__cat .nav-link {
     border-top: #885B3E solid 1px;
     border-bottom: #885B3E solid 1px; }
-  .navbar__cat ul a, .navbar__cat .nav-link ul a {
+  .navbar__cat ul .navcat {
     color: #2E8654;
-    text-decoration: none; }
+    text-decoration: none;
+    text-transform: uppercase; }
 
 .navbar__redes {
   padding: 0; }
@@ -162,8 +168,13 @@ a {
 ul {
   list-style: none; }
 
-.fab, .fas {
+.fab, .fa-bars {
   color: #885B3E; }
+
+.fa-li {
+  color: #E1B37D; }
+  .fa-li .fab {
+    color: #E1B37D; }
 
 body {
   overflow: hidden; }
@@ -179,6 +190,8 @@ body {
       font-weight: bold; }
     .prod__categorias .list .cat__button {
       text-transform: uppercase; }
+      .prod__categorias .list .cat__button a {
+        color: #2E8654; }
 
 .cat__button {
   color: #2E8654;
@@ -227,8 +240,13 @@ a {
 ul {
   list-style: none; }
 
-.fab, .fas {
+.fab, .fa-bars {
   color: #885B3E; }
+
+.fa-li {
+  color: #E1B37D; }
+  .fa-li .fab {
+    color: #E1B37D; }
 
 a {
   text-decoration: none; }
@@ -236,24 +254,28 @@ a {
 ul {
   list-style: none; }
 
-.fab, .fas {
+.fab, .fa-bars {
   color: #885B3E; }
 
-.contacto .form-control {
-  background-color: burlywood;
-  font-weight: bold; }
+.fa-li {
+  color: #E1B37D; }
+  .fa-li .fab {
+    color: #E1B37D; }
 
-.contacto ::placeholder {
-  color: #2E8654; }
-
-.contacto .btn-flat {
-  background-color: #2E8654;
-  color: white; }
-
-.contacto .contacto_datos {
-  background-color: #885B3E;
-  color: burlywood;
-  padding: 1em;
-  border-radius: 1rem; }
-  .contacto .contacto_datos p {
-    margin-left: 0.5em; }
+.contacto {
+  text-align: center;
+  padding-right: 2.5em; }
+  .contacto .escribinos {
+    padding: 1em;
+    color: #E1B37D;
+    font-weight: bold; }
+  .contacto .btn-flat {
+    background-color: #2E8654;
+    color: white; }
+  .contacto .contacto_datos {
+    background-color: #885B3E;
+    color: white;
+    padding: 1em;
+    border-radius: 1rem; }
+    .contacto .contacto_datos .con__datos {
+      text-align: left; }

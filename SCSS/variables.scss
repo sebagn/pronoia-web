@@ -9,6 +9,12 @@ a{
 ul{    
     list-style: none
 }
-.fab, .fas{
+.fab, .fa-bars{
     color:$color-pri;
+}
+.fa-li{
+    color: $color-focus;
+    .fab{
+        color:$color-focus;
+    }
 }

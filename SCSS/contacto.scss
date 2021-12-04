@@ -1,25 +1,25 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-.contacto{
-    .form-control{
-        background-color: burlywood;
-        font-weight: bold;
-    }
-    ::placeholder{
-        color:$color-sec;
-    }
-    .btn-flat{
-        background-color: $color-sec;
-        color: white;
-    }
+.contacto {
+	text-align: center;
+	padding-right: 2.5em;
+	.escribinos {
+		padding: 1em;
+		color: $color-focus;
+		font-weight: bold;
+	}
+	.btn-flat {
+		background-color: $color-sec;
+		color: white;
+	}
 
-    .contacto_datos{
-        background-color: $color-pri;
-        color: burlywood;
-        padding: 1em;
-        border-radius: 1rem;
-        p{
-            margin-left: 0.5em;
-        }
-    }
+	.contacto_datos {
+		background-color: $color-pri;
+		color: white;
+		padding: 1em;
+		border-radius: 1rem;
+		.con__datos {
+			text-align: left;
+		}
+	}
 }
