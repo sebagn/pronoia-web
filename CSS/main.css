@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; }
+
 a {
   text-decoration: none; }
 
@@ -162,6 +165,9 @@ ul {
 .inicio-carta {
   padding: 50px; }
 
+body {
+  overflow-x: hidden; }
+
 a {
   text-decoration: none; }
 
@@ -175,9 +181,6 @@ ul {
   color: #E1B37D; }
   .fa-li .fab {
     color: #E1B37D; }
-
-body {
-  overflow: hidden; }
 
 .prod__categorias {
   text-align: center; }
@@ -234,6 +237,9 @@ body {
     .prod__galeria .gal__cat .card {
       width: 220px; } }
 
+body {
+  overflow-x: hidden; }
+
 a {
   text-decoration: none; }
 
@@ -247,6 +253,9 @@ ul {
   color: #E1B37D; }
   .fa-li .fab {
     color: #E1B37D; }
+
+body {
+  overflow-x: hidden; }
 
 a {
   text-decoration: none; }

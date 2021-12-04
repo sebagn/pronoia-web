@@ -2,7 +2,9 @@ $color-pri: #885B3E;
 $color-focus:#E1B37D;
 $color-back: #FEEDDA;
 $color-sec: #2E8654;
-
+body {
+	overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
