@@ -1,84 +1,85 @@
-@import 'variables';
+@import "variables";
 
-.span-top{
-    text-align: center;
-    background-color: $color-pri;
-    color: white;
-    width: 100vw;
-    padding: 0.5rem 0;
+.span-top {
+	text-align: center;
+	background-color: $color-pri;
+	color: white;
+	width: 100vw;
+	padding: 0.5rem 0;
 }
-.logo{
-    height: 7rem;
+.logo {
+	height: 7rem;
 }
-.navbar{
-    display: flex;
-    justify-content: space-around;
-
+.navbar {
+	display: flex;
+	justify-content: space-around;
 }
-.navbar-brand{
-    margin: 0;
+.navbar-brand {
+	margin: 0;
 }
-.navbar__cat{
+.navbar__cat {
     color: $color-pri;
-    border-top: $color-pri solid 1px;
-    border-bottom: $color-pri solid 1px;
-    padding: 1em 0;
-    &:focus{
-        color: $color-pri;
-
-    }
-    ul{
-        a{
-            color: $color-sec;
-            text-decoration: none;
-        }
-    };
+		padding: 1em 0;
+		&:focus {
+			color: $color-pri;
+		}
+	.nav-link {
+		@extend .navbar__cat;
+		border-top: $color-pri solid 1px;
+		border-bottom: $color-pri solid 1px;
+	}
+	ul {
+		a {
+			color: $color-sec;
+			text-decoration: none;
+		}
+	}
 }
-.navbar__redes{
-padding: 0;
+.navbar__redes {
+	padding: 0;
 }
-.nav-item{
-    display: block;
-    float: left;
-    a{padding: 0.3em;}
-}
-
-.offcanvas{
-    width: 70vw;
-    .offcanvas-title{
-width: 50%;
-margin: 0 25%;
-    }
-    .canvas__close{
-        align-self: flex-start;
-    }
-}
-.nav-menu{
-    display: none;
+.nav-item {
+	display: block;
+	float: left;
+	a {
+		padding: 0.3em;
+	}
 }
 
-@media (min-width: 769px){
-    .nav-bars{
-        display: none;;
-    }
-    .nav-menu{
-        align-self: flex-end;
-        display: inline;
-        .nav-link{
-            color:$color-pri;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-        .active {
-            color: $color-focus;
-        }
-    }
-    .navbar__redes{
-        align-self: flex-end;
-    }
-
+.offcanvas {
+	width: 70vw;
+	.offcanvas-title {
+		width: 50%;
+		margin: 0 25%;
+	}
+	.canvas__close {
+		align-self: flex-start;
+	}
 }
-    
+.nav-menu {
+	display: none;
+}
+
+@media (min-width: 769px) {
+	.nav-bars {
+		display: none;
+	}
+	.nav-menu {
+		align-self: flex-end;
+		display: inline;
+		.nav-link {
+			color: $color-pri;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		.active {
+			color: $color-focus;
+		}
+	}
+	.navbar__redes {
+		align-self: flex-end;
+	}
+}
 
 // .navbar-light .navbar-nav .nav-link{
 //     color: $color-pri;
@@ -94,4 +95,3 @@ margin: 0 25%;
 // .navbar-light .navbar-toggler-icon{
 //     background-color: $color-pri;
 // }
-

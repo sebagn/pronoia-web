@@ -10,9 +10,11 @@ body{
 	.list {
 		list-style-type: none;
 		padding: 0;
+        .active{
+            font-weight: bold;
+        }
 		.cat__button {
 			text-transform: uppercase;
-			font-weight: 600;
 		}
 	}
 }
@@ -32,7 +34,7 @@ body{
 		flex-flow: row wrap;
 		justify-content: start;
 		.card {
-			margin: 0.3em;
+			margin: 0.5em 0.3em;
 			width: 23%;
 			.card-title {
 				text-transform: uppercase;
@@ -40,12 +42,13 @@ body{
 			}
 		}
 	}
-}
-.gal__title {
-	width: 100%;
-	text-align: center;
-	margin: 1em 0;
-	color: $color-sec;
+    .gal__title {
+        display: none;
+        width: 100%;
+        text-align: center;
+        margin: 1em 0;
+        color: $color-sec;
+    }
 }
 @media (max-width: 768px) {
     .prod__categorias{
@@ -56,12 +59,14 @@ body{
 		justify-content: space-around;
 	}
 	.prod__galeria {
+        .gal__title {
+            display: block;
+        }
 		.gal__cat {
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: space-around;
 			.card {
-                margin: 0;
 				width: 220px;
 			}
 		}
