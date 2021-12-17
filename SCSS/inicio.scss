@@ -44,6 +44,7 @@ body{
         display: flex;
         flex-direction: row-reverse;
         margin-right: 5%;
+        margin-bottom: 30px;
     }
 
     .inicio-grid-img1{
@@ -151,7 +152,7 @@ body{
                 color: #FEEDDA;
                 font-weight: 500;
                 font-size: 1.5rem;
-                line-height: 25px;
+                line-height: 40px;
             }
         }
     }
@@ -221,6 +222,18 @@ body{
             object-fit: contain;
         }
     }
+    .inicio-grid-texto2{
+        p{
+            margin-top: 45px;
+            margin-left: 38px;
+            margin-right: 70px;    
+            color: #885b3e;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 50px;
+        }
+    }
+
 
 }
 
