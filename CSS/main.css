@@ -17,8 +17,9 @@ ul {
 
 .span-top {
   text-align: center;
-  background-color: #885B3E;
+  background-color: #E1B37D;
   color: white;
+  font-weight: bold;
   width: 100vw;
   padding: 0.5rem 0; }
 
@@ -40,10 +41,13 @@ ul {
   .navbar__cat .nav-link {
     border-top: #885B3E solid 1px;
     border-bottom: #885B3E solid 1px; }
+  .navbar__cat ul li, .navbar__cat .nav-link ul li {
+    padding: 0.3em 0; }
   .navbar__cat ul .navcat {
     color: #2E8654;
     text-decoration: none;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: bold; }
 
 .navbar__redes {
   padding: 0; }
@@ -210,11 +214,16 @@ ul {
     flex-flow: row wrap;
     justify-content: start; }
     .prod__galeria .gal__cat .card {
-      margin: 0.5em 0.3em;
-      width: 23%; }
+      margin: 0.5em 0.8em;
+      width: 16vw;
+      border: solid 2px #E1B37D; }
+      .prod__galeria .gal__cat .card img {
+        align-self: center;
+        width: 102%; }
       .prod__galeria .gal__cat .card .card-title {
-        text-transform: uppercase;
-        color: #885B3E; }
+        font-weight: bold;
+        text-align: center;
+        color: #E1B37D; }
   .prod__galeria .gal__title {
     display: none;
     width: 100%;
@@ -229,13 +238,15 @@ ul {
     flex-direction: column;
     justify-content: space-around; }
   .prod__galeria .gal__title {
-    display: block; }
+    display: block;
+    text-align: left;
+    margin-left: 1em; }
   .prod__galeria .gal__cat {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around; }
     .prod__galeria .gal__cat .card {
-      width: 220px; } }
+      width: 260px; } }
 
 body {
   overflow-x: hidden; }

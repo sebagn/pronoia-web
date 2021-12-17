@@ -35,11 +35,17 @@
 		flex-flow: row wrap;
 		justify-content: start;
 		.card {
-			margin: 0.5em 0.3em;
-			width: 23%;
+			margin: 0.5em 0.8em;
+			width: 16vw;
+			border: solid 2px $color-focus;
+			img{
+				align-self: center;
+				width: 102%;
+			}
 			.card-title {
-				text-transform: uppercase;
-				color: $color-pri;
+				font-weight: bold;
+				text-align: center;
+				color: $color-focus;
 			}
 		}
 	}
@@ -64,13 +70,15 @@
 	.prod__galeria {
 		.gal__title {
 			display: block;
+			text-align: left;
+			margin-left: 1em;
 		}
 		.gal__cat {
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: space-around;
 			.card {
-				width: 220px;
+				width: 260px;
 			}
 		}
 	}

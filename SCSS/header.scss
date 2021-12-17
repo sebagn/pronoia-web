@@ -2,8 +2,9 @@
 
 .span-top {
 	text-align: center;
-	background-color: $color-pri;
+	background-color: $color-focus;
 	color: white;
+	font-weight: bold;
 	width: 100vw;
 	padding: 0.5rem 0;
 }
@@ -29,10 +30,14 @@
 		border-bottom: $color-pri solid 1px;
 	}
 	ul {
+		li{
+			padding: 0.3em 0;
+		}
 		.navcat {
 			color: $color-sec;
 			text-decoration: none;
 			text-transform: uppercase;
+			font-weight: bold;
 		}
 	}
 }
