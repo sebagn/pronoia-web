@@ -1,17 +1,94 @@
-.logo {
-  height: 10rem; }
+body {
+  overflow-x: hidden; }
 
-.navbar-light .navbar-nav .nav-link {
-  color: green; }
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.fab, .fa-bars {
+  color: #885B3E; }
+
+.fa-li {
+  color: #E1B37D; }
+  .fa-li .fab {
+    color: #E1B37D; }
+
+.span-top {
+  text-align: center;
+  background-color: #E1B37D;
+  color: white;
+  font-weight: bold;
+  width: 100vw;
+  padding: 0.5rem 0; }
+
+.logo {
+  height: 7rem; }
+
+.navbar {
+  display: flex;
+  justify-content: space-around; }
+
+.navbar-brand {
+  margin: 0; }
+
+.navbar__cat, .navbar__cat .nav-link {
+  color: #885B3E;
+  padding: 1em 0; }
+  .navbar__cat:focus, .navbar__cat .nav-link:focus, .navbar__cat:hover, .navbar__cat .nav-link:hover {
+    color: #885B3E; }
+  .navbar__cat .nav-link {
+    border-top: #885B3E solid 1px;
+    border-bottom: #885B3E solid 1px; }
+  .navbar__cat ul li, .navbar__cat .nav-link ul li {
+    padding: 0.3em 0; }
+  .navbar__cat ul .navcat {
+    color: #2E8654;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.navbar__redes {
+  padding: 0; }
+
+.nav-item {
+  display: block;
+  float: left; }
+  .nav-item a {
+    padding: 0.3em; }
+
+.offcanvas {
+  width: 70vw; }
+  .offcanvas .offcanvas-title {
+    width: 50%;
+    margin: 0 25%; }
+  .offcanvas .canvas__close {
+    align-self: flex-start; }
+
+.nav-menu {
+  display: none; }
+
+@media (min-width: 769px) {
+  .nav-bars {
+    display: none; }
+  .nav-menu {
+    align-self: flex-end;
+    display: inline; }
+    .nav-menu .nav-link {
+      color: #885B3E;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .nav-menu .active {
+      color: #E1B37D; }
+  .navbar__redes {
+    align-self: flex-end; } }
 
 :root {
   --primario: #885b3e ;
   --secundario: #2e8654 ;
   --terciario: #e1b37d ;
   --acento: #FEEDDA; }
-
-body {
-  font-family: 'Roboto', sans-serif; }
 
 .carousel-container {
   display: flex;
@@ -186,6 +263,9 @@ body {
     font-size: 1.5rem;
     line-height: 50px; }
 
+body {
+  overflow-x: hidden; }
+
 a {
   text-decoration: none; }
 
@@ -298,10 +378,21 @@ ul {
 
 .contacto {
   text-align: center;
-  margin: 1em 0; }
-
-a {
-  text-decoration: none; }
+  padding-right: 2.5em; }
+  .contacto .escribinos {
+    padding: 1em;
+    color: #E1B37D;
+    font-weight: bold; }
+  .contacto .btn-flat {
+    background-color: #2E8654;
+    color: white; }
+  .contacto .contacto_datos {
+    background-color: #885B3E;
+    color: white;
+    padding: 1em;
+    border-radius: 1rem; }
+    .contacto .contacto_datos .con__datos {
+      text-align: left; }
 
 .footer-container {
   height: 250px;
