@@ -90,9 +90,6 @@ ul {
   --terciario: #e1b37d ;
   --acento: #FEEDDA; }
 
-body {
-  font-family: 'Roboto', sans-serif; }
-
 .carousel-container {
   display: flex;
   justify-content: center; }
