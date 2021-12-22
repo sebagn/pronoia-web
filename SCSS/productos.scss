@@ -30,6 +30,7 @@
 .prod__galeria {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 1em;
 	.gal__cat {
 		display: flex;
 		flex-flow: row wrap;
@@ -46,6 +47,10 @@
 				font-weight: bold;
 				text-align: center;
 				color: $color-focus;
+			}
+			&:hover{
+				transition: 0.5s;
+				transform: scale(1.05,1.05)
 			}
 		}
 	}
