@@ -302,7 +302,8 @@ ul {
 
 .prod__galeria {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 1em; }
   .prod__galeria .gal__cat {
     display: flex;
     flex-flow: row wrap;
@@ -318,6 +319,9 @@ ul {
         font-weight: bold;
         text-align: center;
         color: #E1B37D; }
+      .prod__galeria .gal__cat .card:hover {
+        transition: 0.5s;
+        transform: scale(1.05, 1.05); }
   .prod__galeria .gal__title {
     display: none;
     width: 100%;
